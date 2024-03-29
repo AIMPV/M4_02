@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  color: #222222;
+  background: rgb(184,252,183);
+  background: linear-gradient(47deg, rgba(184,252,183,1) 0%, rgba(235,251,154,1) 100%);
+}
+
+.card {
+  border-radius: 1.4rem;
+}
+
+.social-btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 3px solid #222;
+}
